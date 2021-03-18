@@ -19,13 +19,13 @@ Resource collecting buildings are buildings that collect resources for the user 
 collect a amount per second which is then displayed in the Resources bar screen. There will be a refinary building(steel), mining building (minerals), and woodcutting farm (wood). Resource collecting buildings CANNOT BE SOLD.
 
 ## Resources
-There will be 5 types of resources the user can collect. They are steel, minerals, and wood. Each resource is tradeable
-for an amount of money in the market.
+There will be 4 types of resources the user can collect. They are steel, minerals and wood in resource collecting buildings and crypto made in crypto mine. Each resource is tradeable for an amount of gold in the market.
 
 ## Money Making Buildings
 Money making buildings are good at making money and could only be bought with money. They can only be built where there is an empty grid of land. For now, there are three types of money making buildings. All money making buildings share a risk of making the user lose money. One is a fast-food diner(low-risk low-reward). Another one is a crypto mine(medium-risk medium-reward). The last one is a crypto investment corp(high-risk high-reward). Any of these buildings can be sold in any given time frame. 
 
-## Mark
+## Market
+Market is a menu option in the screen which allows the user to sell some of their resources. Selling a resource takes time and only two can be sold at a given time. After a given time, the user will be a collect a specified amount of money. Wood, minerals, and steel initally sells high but drops in value as more are sold. Crpyto prices fluctuate in prices very often. 
 
 ## Goal
-Your goal is to effeciently choose the right 
+Your goal is to effienctly allocate your resources and to make certain amount of gold in a specified time period. 
