@@ -28,4 +28,20 @@ Money making buildings are good at making money and could only be bought with mo
 Market is a menu option in the screen which allows the user to sell some of their resources. Selling a resource takes time and only two can be sold at a given time. After a given time, the user will be a collect a specified amount of money. Wood, minerals, and steel initally sells high but drops in value as more are sold. Crpyto prices fluctuate in prices very often. 
 
 ## Goal
-Your goal is to effienctly allocate your resources and to make certain amount of gold in a specified time period. 
+1. Create a land grid with 4 plots of land. User can buy buildings when clicked on the plot. (occupied/not occupied).
+2. Have a Buy Buildings Menu Modal. A minimum of 3 resource making buildings and one gold making buildings for user to choose. (random risk alogrithm for how the gold is gained)
+3. Have a Global Time.
+4. Have a Market Menu Modal. (Algorithm to set diminish prices) Allows User to sell/buy a specified resource for gold (vice versa). Sets a timer after every buy/sell to prevent user from buying/selling.
+5. Have a reset option.
+6. Hae a stats modal at the every end to show how well you did, and if you win or lose.
+
+## Stretch Goals 
+1. Allow user to buy more plots of land.
+2. Have more resource buildings and gold making buildings to make game more interesting. (More random risk algorithms for how gold is gained)
+3. Buildings once placed can finally be sold for gold. (Except for resource ones) 
+4. Find a better strategy to make the game more fun 
+5. Replace current visual buildings with Isometric graphics. Make the game more visually appealing.
+
+## WireFrames
+Wireframe One (A Example Play) https://miro.com/app/board/o9J_lO8MDSo=/
+Wireframe Two (A Simple Visual) https://drive.google.com/file/d/1XyDDvIhUgj78Al9wfSkTtFik-eOBM6dD/view?usp=sharing
