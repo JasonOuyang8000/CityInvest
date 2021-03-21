@@ -47,4 +47,7 @@ Market is a menu option in the screen which allows the user to sell some of thei
 ### Wireframe Two (A Simple Visual) https://drive.google.com/file/d/1XyDDvIhUgj78Al9wfSkTtFik-eOBM6dD/view?usp=sharing
 
 ## Sources
+### Source 1
 https://stealthix.itch.io/rpg-nature-tileset  Land Source
+https://pixabay.com/vectors/building-flag-map-stairs-game-48713/
+https://pixabay.com/vectors/building-flag-tower-map-round-48708/
