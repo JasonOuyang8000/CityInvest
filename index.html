@@ -8,20 +8,59 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="hidden" id="modal-background">
+    
+    
+    </div>
+    <div class="hidden" id=modal>
+        
+        
+    </div>
+
+
     <canvas id="bg-view">
 
 
     </canvas>
-
     <canvas id="game-view">
-
         
-    </canvas>
-    <div id="buildings-menu">
-
-
-    </div>
    
-    <script src='main.js' async defer> </script>
+    </canvas>
+
+
+    
+    <div id="bottom-panel">
+        <div class="buildings-info">
+            <img id="farm" class="selected buildings-option" src="assets/images/buildings/farm.svg">
+            <img id="tower" class="buildings-option" src="assets/images/buildings/tower.svg">
+            <img id="grave" class="buildings-option" src="assets/images/buildings/grave.svg">
+            <img id="blacksmith" class="buildings-option" src="assets/images/buildings/blacksmith.svg">
+            <img id="fishing" class="buildings-option" src="assets/images/buildings/fishing.svg">
+            <img id="beer" class="buildings-option" src="assets/images/buildings/beer.svg">
+            <img id="barracks" class="buildings-option" src="assets/images/buildings/barracks.svg">
+            <img id="pyramid" class="buildings-option" src="assets/images/buildings/pyramid.svg">
+            <img id="warehouse" class="buildings-option" src="assets/images/buildings/warehouse.svg">
+        </div>
+        <div id="selected-option">
+            <div>
+                <p id="description">collects food</p>
+                <p id="requirement">costs 20 gold</p>
+            </div>
+            <img src="assets/images/buildings/farm.svg">
+        </div>
+
+
+      <div class="resource-info">
+        <p>Food: <span id="food">0</span></p>
+        <p>Money: <span id="money">0</span></p>
+        <p>Villagers:<span id="villagers">0</span></p>
+      </div>
+    
+
+      <button>Reset Game</button>
+    </div>
+
+    <script type="module" src='./assets/classes/building.js'></script>
+    <script type="module" src='main.js'> </script>
 </body>
 </html>
