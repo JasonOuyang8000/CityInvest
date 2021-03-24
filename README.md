@@ -2,7 +2,7 @@
 # CityInvest
 
 ## Summary
-The game is about investing in buildings (resource collecting buildings and money-making buildings) for gaining money.It takes place in the middle of nowhere but the land is filled with rich resources! You need to reach a specified amount of money in a specfic time. To start off, the User is given a small grid of land and some small amount of resources. (Steel, Minerals, and Wood) They can then use those resources to build a few resource collecting buildings. The user can then decide to use those resources to further build more resource collecting buildings or decide sell those resources in the market for money. Initially, the resources the user sells in the market is worth a lot of money but then decreases in value as they sell more of it. If the user has money, the user can decide to buy money making resources instead of relying on farming resources for money. Money making resources offer more money but they can lose money as well. I got this idea from civilizations game and farmville.  
+This game is about trying to get villagers in a cruel world. Got inspired by civilizations and survival series game. 
 
 ## Structure of game
 
@@ -29,18 +29,18 @@ Market is a menu option in the screen which allows the user to sell some of thei
 
 ## Goal
 1. Create a land grid with 4 plots of land. User can buy buildings when clicked on the plot. (occupied/not occupied).
-2. Have a Buy Buildings Menu Modal. A minimum of 3 resource making buildings and one gold making buildings for user to choose. (random risk alogrithm for how the gold is gained)
+2. Have a Buy Buildings Menu Modal. A minimum of 3 resource making buildings and one gold making buildings for user to choose. 
 3. Have a Global Time.
-4. Have a Market Menu Modal. (Algorithm to set diminish prices) Allows User to sell/buy a specified resource for gold (vice versa). Sets a timer after every buy/sell to prevent user from buying/selling.
+4. Have a Buy Villagers Modal.
 5. Have a reset option.
 6. Hae a stats modal at the every end to show how well you did, and if you win or lose.
 
 ## Stretch Goals 
 1. Allow user to buy more plots of land.
-2. Have more resource buildings and gold making buildings to make game more interesting. (More random risk algorithms for how gold is gained)
-3. Buildings once placed can finally be sold for gold. (Except for resource ones) 
+2. Have more resource buildings and gold making buildings to make game more interesting. 
+3. Buildings once placed can finally be sold for gold. 
 4. Find a better strategy to make the game more fun 
-5. Replace current visual buildings with Isometric graphics. Make the game more visually appealing.
+
 
 ## WireFrames
 ### Wireframe One (A Example Play) https://miro.com/app/board/o9J_lO8MDSo=/
