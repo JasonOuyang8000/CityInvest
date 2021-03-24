@@ -5,6 +5,7 @@ html, * {
 body {
     margin: 0;
     padding: 0;
+
 }
 
 #game-view {
@@ -16,6 +17,15 @@ body {
 }
 
 #bg-view {
+    border: 1px solid black;
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+#weather-view {
     border: 1px solid black;
     width: 100%;
     height: 80vh;
@@ -61,7 +71,7 @@ body {
 .buildings-info {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 38%;
 }
 .buildings-option {
     height: 75px;
@@ -74,8 +84,6 @@ body {
     justify-content: space-between;
     display: flex;
     width: 30%;
-    border-left: 1px solid #000000;
-    padding: 10px;
     margin-right: 30px;
 }
 
@@ -126,7 +134,8 @@ body {
     width: 600px;
     margin: 0 auto;
     box-shadow: 1px 1px 1px 1px rgba(15, 15, 15, 0.644);
-    z-index: 2;
+    z-index: 5;
+    padding: 20px;
 }
 
 #modal-background {
@@ -134,7 +143,7 @@ body {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.63);
-    z-index: 1;
+    z-index: 4;
 }
 #modal p,
 #modal h1,
@@ -203,6 +212,10 @@ body {
     
 }
 
+#form-collect {
+    text-align: center;
+}
+
 /* Game Message */
 #game-message {
     background: #ffffff;
@@ -215,3 +228,45 @@ body {
     text-align: center;
     transition: 1s ease-in;
 }
+
+#fight,
+#run {
+    margin-bottom: 30px;
+}
+
+/* Monster */
+.monster {
+    height: 100px; 
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+}
+
+
+/* Buttons */
+button {
+    font-size: 16px;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 15px;
+    color: #ffffff;
+    background: rgb(26, 22, 22);
+    cursor: pointer;
+}
+
+
+input[type="number"] {
+    font-size: 16px;
+}
+
+/* Magic Shield */
+#magic-shield {
+    border: 1px solid black;
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
