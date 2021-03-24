@@ -640,4 +640,4 @@ const randomEvent = () => {
     randomTimer = setInterval(startWeather,10);
 }
 
-displayModal('<h1>Objective is to double your villagers.</h1><p>You can buy villagers in the castle.Click on random forest around to attack monsters and gather resources.Attack increase your chances of winning and defense increases your chances of escaping.</p>');
+displayModal('<h1>Objective is to double your villagers in 2 minutes.</h1><p>You can buy villagers in the castle.Click on random forest around to attack monsters and gather resources.Attack increase your chances of winning and defense increases your chances of escaping.</p>');
